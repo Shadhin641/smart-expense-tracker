@@ -1,0 +1,8 @@
+# Phase 1 runtime dependencies (later phases add JWT, TOTP, PDF, etc.)
+Django~=5.2.0
+djangorestframework~=3.16.0
+django-cors-headers~=4.7.0
+psycopg[binary]~=3.2
+argon2-cffi>=23.1
+cryptography>=43.0
+python-dotenv~=1.0
